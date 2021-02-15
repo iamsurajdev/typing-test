@@ -1,0 +1,10 @@
+.inputArea_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.inputArea {
+  font-size: 30px;
+  width: 50%;
+  margin: auto;
+}
