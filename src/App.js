@@ -1,10 +1,12 @@
+import React, { useState } from "react";
 import InputArea from "./components/InputArea";
 
 const App = () => {
+  const [input, setInput] = useState("");
   return (
     <>
       <h1>Hello</h1>
-      <InputArea />
+      <InputArea state={input} setState={setInput} />
     </>
   );
 };
