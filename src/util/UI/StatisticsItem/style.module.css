@@ -1,0 +1,17 @@
+.main {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.value {
+  font-size: 44px;
+}
+
+.name {
+  font-size: 20px;
+}
