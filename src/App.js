@@ -25,11 +25,11 @@ const App = () => {
   const [isError, setIsError] = useState(false);
   const [lastScore, setLastScore] = useState("0");
   return (
-    <>
-      <Header /> <Footer /> <ShowText /> <Statistics /> <Tips />{" "}
-      <TypingSpeedInfo />
+    <div>
+      <Header /> <ShowText /> <Statistics /> <Tips /> <TypingSpeedInfo />
       <InputArea state={input} setState={setInput} />
-    </>
+      <Footer />
+    </div>
   );
 };
 
