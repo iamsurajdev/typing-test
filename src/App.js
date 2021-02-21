@@ -1,6 +1,12 @@
 import React, { useState, useRef, useEffect } from "react";
 import { quotesArray, random, allowedKeys } from "./util/helperFunctions";
 import InputArea from "./components/InputArea";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import ShowText from "./components/ShowText";
+import Statistics from "./components/Statistics";
+import Tips from "./components/Tips";
+import TypingSpeedInfo from "./components/TypingSpeedInfo";
 
 const App = () => {
   const inputRef = useRef(null);
@@ -20,7 +26,8 @@ const App = () => {
   const [lastScore, setLastScore] = useState("0");
   return (
     <>
-      <h1>Hello</h1>
+      <Header /> <Footer /> <ShowText /> <Statistics /> <Tips />{" "}
+      <TypingSpeedInfo />
       <InputArea state={input} setState={setInput} />
     </>
   );
