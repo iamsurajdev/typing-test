@@ -1,12 +1,15 @@
-.inputArea_wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.inputArea {
+.inputArea_div {
   background-color: rgb(32, 31, 31);
-  color: #c1c1c1;
-  font-size: 30px;
-  width: 80%;
   margin: auto;
+  margin-top: 30px;
+  color: #eeeeee;
+  font-size: 2rem;
+  font-weight: 400;
+  width: 80%;
+  height: 70px;
+  border-radius: 10px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
