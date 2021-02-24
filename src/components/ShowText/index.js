@@ -21,9 +21,18 @@ const ShowText = ({
       ) : started ? (
         <div
           className={styles.started_div}
-          className={` quotes${started ? " active" : ""}${
-            isError ? " is-error" : ""
-          }`}
+          style={
+            !isError
+              ? started
+                ? {
+                    boxShadow: "0 0 3px 0.15rem rgb(23, 168, 27)",
+                    outline: "0",
+                  }
+                : {}
+              : isError
+              ? { boxShadow: "0 0 3px 0.15rem rgb(190, 25, 25)", outline: "0" }
+              : {}
+          }
           tabIndex="0"
           onKeyDown={handleKeyDown}
           ref={inputRef}
