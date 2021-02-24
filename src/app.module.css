@@ -15,6 +15,7 @@
 
 .startButton {
   margin: 30px auto;
+  cursor: pointer;
   width: 100px;
   height: 100px;
   text-align: center;
