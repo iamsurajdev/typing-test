@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import styles from "./app.module.css";
 import { quotesArray, random, allowedKeys } from "./util/helperFunctions";
 import InputArea from "./components/InputArea";
 import Header from "./components/Header";
@@ -28,12 +29,12 @@ const App = () => {
     <div>
       <Header />
       <Statistics />
-      <div>
-        <div>
+      <div className={styles.container}>
+        <div className={styles.leftSideInContainer}>
           {" "}
           <Tips />{" "}
         </div>
-        <div>
+        <div className={styles.rightSideInContainer}>
           <ShowText />
           <InputArea state={input} setState={setInput} />
           <TypingSpeedInfo />
