@@ -6,7 +6,8 @@
   font-size: 2rem;
   font-weight: 400;
   width: 80%;
-  height: 70px;
+  min-height: 70px;
+  height: 100%;
   border-radius: 10px;
   padding: 0 10px;
   display: flex;
