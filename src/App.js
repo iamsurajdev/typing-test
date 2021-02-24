@@ -28,7 +28,14 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Statistics />
+      <Statistics
+        cpm={cpm}
+        wpm={wpm}
+        lastScore={lastScore}
+        duration={duration}
+        accuracy={accuracy}
+        errorIndex={errorIndex}
+      />
 
       <div className={styles.startButton}>
         {" "}
