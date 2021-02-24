@@ -9,7 +9,7 @@ const InputArea = ({ state, setState }) => {
         id="text_area"
         className={styles.inputArea}
         cols="50"
-        rows="10"
+        rows="5"
         value={state}
         onChange={(e) => setState(e.target.value)}
       ></textarea>
