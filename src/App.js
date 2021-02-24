@@ -26,8 +26,20 @@ const App = () => {
   const [lastScore, setLastScore] = useState("0");
   return (
     <div>
-      <Header /> <ShowText /> <Statistics /> <Tips /> <TypingSpeedInfo />
-      <InputArea state={input} setState={setInput} />
+      <Header />
+      <Statistics />
+      <div>
+        <div>
+          {" "}
+          <Tips />{" "}
+        </div>
+        <div>
+          <ShowText />
+          <InputArea state={input} setState={setInput} />
+          <TypingSpeedInfo />
+        </div>
+      </div>
+
       <Footer />
     </div>
   );
