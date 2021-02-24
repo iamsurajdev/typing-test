@@ -29,6 +29,12 @@ const App = () => {
     <div>
       <Header />
       <Statistics />
+
+      <div className={styles.startButton}>
+        {" "}
+        <span>Start Button</span>{" "}
+      </div>
+
       <div className={styles.container}>
         <div className={styles.leftSideInContainer}>
           {" "}
