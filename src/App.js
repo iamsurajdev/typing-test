@@ -25,6 +25,11 @@ const App = () => {
   const [accuracy, setAccuracy] = useState(0);
   const [isError, setIsError] = useState(false);
   const [lastScore, setLastScore] = useState("0");
+
+  const handleStart = () => {
+    //
+  };
+
   return (
     <div>
       <Header />
@@ -37,10 +42,22 @@ const App = () => {
         errorIndex={errorIndex}
       />
 
-      <div className={styles.startButton}>
-        {" "}
-        <span>Start Button</span>{" "}
-      </div>
+      {/* Start Button */}
+      {ended || started ? (
+        <div
+          onClick={() => window.location.reload()}
+          className={styles.startButton}
+        >
+          {" "}
+          <span> Reload</span>{" "}
+        </div>
+      ) : (
+        <div onClick={handleStart} className={styles.startButton}>
+          {" "}
+          <span> Start </span>{" "}
+        </div>
+      )}
+      {/* Start Button end */}
 
       <div className={styles.container}>
         <div className={styles.leftSideInContainer}>
