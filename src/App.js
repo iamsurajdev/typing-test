@@ -123,12 +123,23 @@ const App = () => {
         <div
           onClick={() => window.location.reload()}
           className={styles.startButton}
+          style={{
+            backgroundColor: "#ff8a65",
+            border: "5px solid #e64a19",
+          }}
         >
           {" "}
           <span> Reload</span>{" "}
         </div>
       ) : (
-        <div onClick={handleStart} className={styles.startButton}>
+        <div
+          onClick={handleStart}
+          className={styles.startButton}
+          style={{
+            backgroundColor: "#8bc34a",
+            border: "5px solid #33691e",
+          }}
+        >
           {" "}
           <span> Start </span>{" "}
         </div>
