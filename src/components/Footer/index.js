@@ -10,7 +10,7 @@ const Footer = () => {
       </span>{" "}
       by{" "}
       <a
-        href="https://www.linkedin.com/in/suraj-biswas-824bb4176/"
+        href="https://iamsurajdev.netlify.app/"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.link}
