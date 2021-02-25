@@ -9,16 +9,14 @@ const StatisticsItem = ({ name = "N/A", value = "N/A", color = "#512DA8" }) => {
         border: `5px solid ${color}`,
         backgroundColor:
           name === "WPM"
-            ? value > 0 && value < 20
-              ? "#eb4841"
-              : value >= 20 && value < 40
-              ? "#f48847"
-              : value >= 40 && value < 60
-              ? "#ffc84a"
-              : value >= 60 && value < 80
-              ? "#a6c34c"
-              : value >= 80
-              ? "#4ec04e"
+            ? value > 0 && value < 26
+              ? "rgb(205,39,188,1)"
+              : value >= 26 && value < 46
+              ? "rgb(14,136,174,1)"
+              : value >= 46 && value < 65
+              ? "rgb(181,159,17,1)"
+              : value >= 65
+              ? "rgb(15,174,35,1)"
               : ""
             : {},
       }}
