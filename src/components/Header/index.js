@@ -1,16 +1,10 @@
 import React from "react";
-import { Typography } from "@material-ui/core";
+import styles from "./style.module.css";
 
 const Header = () => {
   return (
-    <div>
-      <Typography align="center" variant="h2">
-        Header
-      </Typography>
-      <br />
-      <Typography align="center" variant="subtitle1">
-        Subtitle
-      </Typography>
+    <div className={styles.main}>
+      <h1 className={styles.heading}>Typing Test One </h1>
     </div>
   );
 };
