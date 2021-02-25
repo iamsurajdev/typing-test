@@ -4,4 +4,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #9ef5c9;
+  padding: 20px 0;
 }
