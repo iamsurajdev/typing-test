@@ -18,7 +18,7 @@ const Footer = () => {
       >
         Suraj Biswas
       </a>{" "}
-      © 2020. Built with{" "}
+      © 2021. Built with{" "}
       <a
         href="https://reactjs.org/"
         target="_blank"
