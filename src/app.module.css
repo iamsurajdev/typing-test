@@ -1,8 +1,11 @@
 .container {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 5px solid #907d7d;
+  margin: 0 20px;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .leftSideInContainer {
@@ -16,12 +19,12 @@
 .startButton {
   margin: 30px auto;
   cursor: pointer;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   text-align: center;
   font-size: 30px;
-  border: 3px solid #588a2a;
-  border-radius: 10%;
+  font-weight: 500;
+  border-radius: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
