@@ -4,6 +4,12 @@
 
 .heading {
   font-size: 45px;
-  margin: 20px 0 50px;
+  margin: 20px 0 0;
   padding: 0;
+}
+
+.subHeading {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 600;
 }
